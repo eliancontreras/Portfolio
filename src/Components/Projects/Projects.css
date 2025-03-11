@@ -1,0 +1,14 @@
+.projects-section{
+    padding : 3rem 0;
+}
+
+.projects-section .inner-wrapper > a{
+    display: block;
+    margin:auto;
+    width: fit-content;
+    text-decoration: none;
+}
+
+.projects-section .inner-wrapper > .sub-btn{
+    margin: auto;
+}

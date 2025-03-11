@@ -1,0 +1,47 @@
+.about-section{
+    background-color: #61FB61;
+    padding: 2rem 0;
+    color:#034603;
+}
+
+.about-section .sub-heading{
+    font-family : instrument-sans;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.about-section .my-description{
+    font-size: 1.6rem;
+    font-weight: 300;
+    font-family: instrument-sans;
+    margin : 1rem 0;
+    line-height: 1.8;
+}
+
+.my-description a{
+    color : inherit;
+}
+
+.about-section .my-image{
+    width:100%;
+}
+
+@media screen and (min-width:800px) {
+    .about-section .about-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        column-gap: 1rem;
+    }
+
+    .about-container > div{
+        flex:1;
+        width:100%;
+    }
+
+    .about-section .my-image{
+        flex: 1;
+        width:50%;
+    }
+}
