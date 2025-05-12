@@ -10,6 +10,7 @@ import nodeIcon from "./assets/node-icon.svg"
 import expressIcon from "./assets/express-icon.svg"
 import mongoIcon from "./assets/mongo-icon.svg"
 import figmaIcon from "./assets/figma-icon.svg"
+import imaginify from "./assets/imaginify.jpg"
 
 type Stack = {
     name : string;
@@ -98,13 +99,13 @@ const allProjects = [{
     liveSiteLink : "https://chromewebstore.google.com/detail/reveal-instantly-understa/doapfofebjnljdcdpkknadbnojikkokp",
     languagesArray : vanillaLanguages
 },
-// {
-//     projectImage : imaginify,
-//     projectTitle : "Imaginify : An Image Manipulation Web App (Saas), A minimalist Canva clone",
-//     githubLink : "https://github.com/eliancontreras/AI-Sass-Imaginify",
-//     liveSiteLink : "http://imaginify-self.vercel.app/",
-//     languagesArray : vanillaLanguages
-// }                   
+{
+    projectImage : imaginify,
+    projectTitle : "Imaginify : An Image Manipulation Web App (Saas), A minimalist Canva clone",
+    githubLink : "https://github.com/eliancontreras/AI-Sass-Imaginify",
+    liveSiteLink : "http://imaginify-self.vercel.app/",
+    languagesArray : vanillaLanguages
+}                   
 ]
 
 export {fullstackLanguages, vanillaLanguages, allProjects}
